@@ -1,0 +1,12 @@
+{
+  "name": "gg-apis/blizzard-mock-fixture",
+  "description": "A set of JSON fixtures that allows mocking Blizzard's API",
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "GGApis\\Blizzard\\Fixture\\": "src"
+    }
+  }
+}
